@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:snapchat_clone/data/bottom_items.dart';
+import 'package:snapchat_clone/pages/stories_page.dart';
 
 class RootApp extends StatefulWidget {
   const RootApp({Key? key}) : super(key: key);
@@ -15,6 +16,20 @@ class _RootAppState extends State<RootApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomSheet: getFooter(),
+      body: getBody(),
+    );
+  }
+
+  Widget getBody() {
+    return IndexedStack(
+      index: pageIndex,
+      children: [
+        StoriesPage(),
+        StoriesPage(),
+        StoriesPage(),
+        StoriesPage(),
+        StoriesPage(),
+      ],
     );
   }
 
