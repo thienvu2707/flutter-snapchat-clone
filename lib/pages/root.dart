@@ -15,7 +15,7 @@ class _RootAppState extends State<RootApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomSheet: getFooter(),
+      bottomNavigationBar: getFooter(),
       body: getBody(),
     );
   }
@@ -25,15 +25,16 @@ class _RootAppState extends State<RootApp> {
       index: pageIndex,
       children: [
         StoriesPage(),
-        StoriesPage(),
-        StoriesPage(),
-        StoriesPage(),
-        StoriesPage(),
+        // StoriesPage(),
+        // StoriesPage(),
+        // StoriesPage(),
+        // StoriesPage(),
       ],
     );
   }
 
   Widget getFooter() {
+    var size = MediaQuery.of(context).size;
     return Container(
       width: double.infinity,
       height: 90,
@@ -49,28 +50,34 @@ class _RootAppState extends State<RootApp> {
                     pageIndex = index;
                   });
                 },
-                child: Column(
-                  children: [
-                    Icon(
-                        iconItems[index],
-                        color: pageIndex == index ? colorItems[index] : Colors
-                            .white.withOpacity(0.5)
-                    ),
-                    const SizedBox(
-                      height: 5,
-                    ),
-                    Text(
-                      textItems[index],
-                      style: TextStyle(
-                          fontSize: 11,
-                          fontWeight: FontWeight.w500,
-
-                          color: pageIndex == index
-                              ? colorItems[index]
-                              : Colors.white.withOpacity(0.5)
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white.withOpacity(0)
+                  ),
+                  width: size.width / iconItems.length,
+                  child: Column(
+                    children: [
+                      Icon(
+                          iconItems[index],
+                          color: pageIndex == index ? colorItems[index] : Colors
+                              .white.withOpacity(0.5)
                       ),
-                    )
-                  ],
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        textItems[index],
+                        style: TextStyle(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w500,
+
+                            color: pageIndex == index
+                                ? colorItems[index]
+                                : Colors.white.withOpacity(0.5)
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               );
             })
