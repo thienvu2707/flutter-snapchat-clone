@@ -75,7 +75,7 @@ class _StoryDetailPageState extends State<StoryDetailPage> {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 const SizedBox(
-                  height: 40,
+                  width: 40,
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.end,

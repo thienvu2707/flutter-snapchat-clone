@@ -71,7 +71,7 @@ lib/generated_plugin_registrant.dart
 **/ios/**/DerivedData/
 **/ios/**/Icon?
 **/ios/**/Pods/
-**/ios/**/.lock/
+**/ios/**/Podfile.lock/
 **/ios/**/.symlinks/
 **/ios/**/profile
 **/ios/**/xcuserdata

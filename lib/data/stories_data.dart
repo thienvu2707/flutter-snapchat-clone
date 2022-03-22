@@ -5,7 +5,7 @@ const List stories_data = [
     "name": "Minaya Cruz",
     "nickname": "minaya_cruz_zee",
     "date": "Thu",
-    "videoUrl": "assets/video_1.mp4"
+    "videoUrl": "assets/video_6.MP4"
   },
   {
     "img":
@@ -13,7 +13,7 @@ const List stories_data = [
     "name": "Dmitriy Frantsev",
     "nickname": "frantsev",
     "date": "Sun",
-    "videoUrl": "assets/video_2.mp4"
+    "videoUrl": "assets/video_2.MP4"
   },
   {
     "img":
@@ -21,7 +21,7 @@ const List stories_data = [
     "name": "Sebastian Mark",
     "nickname": "sebastian_mark",
     "date": "Today",
-    "videoUrl": "assets/video_3.mp4"
+    "videoUrl": "assets/video_3.MP4"
   },
   {
     "img":
@@ -29,7 +29,7 @@ const List stories_data = [
     "name": "Keitravis Squire",
     "nickname": "Keitravis005",
     "date": "4h ago",
-    "videoUrl": "assets/video_4.mp4"
+    "videoUrl": "assets/video_4.MP4"
   },
   {
     "img":
@@ -37,7 +37,7 @@ const List stories_data = [
     "name": "Patrick Hendry",
     "nickname": "patrick_jen",
     "date": "Mon",
-    "videoUrl": "assets/video_5.mp4"
+    "videoUrl": "assets/video_5.MP4"
   },
   {
     "img":
@@ -45,7 +45,7 @@ const List stories_data = [
     "name": "Ben Parker",
     "nickname": "benparker001",
     "date": "Today",
-    "videoUrl": "assets/video_6.mp4"
+    "videoUrl": "assets/video_6.MP4"
   },
   {
     "img":
@@ -53,7 +53,7 @@ const List stories_data = [
     "name": "Foto Sushi",
     "nickname": "sushina",
     "date": "Mon",
-    "videoUrl": "assets/video_7.mp4"
+    "videoUrl": "assets/video_7.MP4"
   },
   {
     "img":
@@ -61,7 +61,7 @@ const List stories_data = [
     "name": "Ayo Ogunseinde",
     "nickname": "ayo_ogunseinde",
     "date": "1h ago",
-    "videoUrl": "assets/video_8.mp4"
+    "videoUrl": "assets/video_8.MP4"
   },
   {
     "img":
@@ -69,7 +69,7 @@ const List stories_data = [
     "name": "Steve Halama",
     "nickname": "halama007",
     "date": "Wed",
-    "videoUrl": "assets/video_9.mp4"
+    "videoUrl": "assets/video_9.MP4"
   },
   {
     "img":
@@ -77,6 +77,6 @@ const List stories_data = [
     "name": "Zohre Nemati",
     "nickname": "zohre_heyo",
     "date": "Wed",
-    "videoUrl": "assets/video_1.mp4"
+    "videoUrl": "assets/video_1.MP4"
   }
 ];
